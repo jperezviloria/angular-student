@@ -12,7 +12,7 @@ export class FormStudentComponent implements OnInit {
   @HostBinding('class') class = 'row'
 
   student: Student = {
-    nameStudent : "",
+    nameStudent : null,
     ageStudent : null
   }
 
