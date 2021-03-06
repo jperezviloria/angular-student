@@ -1,0 +1,15 @@
+<div class = "allCards">
+
+    <div class="particularCard" *ngFor="let student of allStudents">
+        <img src="https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual-by-vexels.png" alt="">
+        <div class="information">
+            <p class="description">name : </p>
+            <p class="nameClass">{{student.nameStudent}}</p>
+            <p class="description">age : </p>
+            <p class="ageClass">{{student.ageStudent}}</p>
+        </div>
+        <button>delete</button>
+        <button>update</button>
+    </div>
+
+</div>
